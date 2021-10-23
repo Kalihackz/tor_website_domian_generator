@@ -23,6 +23,8 @@ read port
 
 mkdir "$folder_name"
 
+echo "[$(date)] | Message : Tor files genereated at $(pwd)/$folder_name " >> logs.txt
+
 echo "HiddenServiceDir $(pwd)/$folder_name
 HiddenServicePort 80 127.0.0.1:$port" > torrc
 
@@ -31,6 +33,8 @@ echo -n "[*] Please close this script after it shows 'Bootstrapped 100% (done): 
 
 echo "\n"
 echo -n "[*] Writing  and starting default tor config file ---> tor -f torrc" | lolcat -a --duration 10 -s 5 -p 1
+
+echo "\n"
 
 chmod 700 $folder_name
 
