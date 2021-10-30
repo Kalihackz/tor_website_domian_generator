@@ -179,7 +179,7 @@ then
     chmod +x 'torterminal.sh'
     echo "[ Copy the latest updated files from 'newupdate' folder ]"
     echo "[ Replace with old files manually                       ]"
-    echo "[ Delete 'newupdate' folder                             ]\n"
+    echo "[ Delete 'newupdate' folder                             ]"
 elif [ $updateVersion \< $currentVersion ]
 then
     echo "\n\nUse official github tor terminal version not unofficial versions"
