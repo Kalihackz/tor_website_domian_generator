@@ -1,4 +1,4 @@
-#Version : 1.0.20
+#Version : 1.0.21
 clear
 
 banner() {
@@ -169,12 +169,17 @@ if [ $updateVersion \> $currentVersion ]
 then
     echo "\n\nUpdating tor terminal files\n"
     mkdir 'newupdate'
-    printf "#####                     (33%%)\r" | lolcat -a --duration 10 -s 6 -p 1
+    printf "#######                 (33%%)\r" | lolcat -a --duration 10 -s 6 -p 1
     cd 'newupdate'
-    printf "#############             (66%%)\r" | lolcat -a --duration 10 -s 6 -p 1
-    wget 'https://raw.githubusercontent.com/Kalihackz/tor_website_domian_generator/main/torterminal.sh'
-    printf "#######################   (100%%)\r" | lolcat -a --duration 10 -s 6 -p 1
+    printf "##############          (66%%)\r" | lolcat -a --duration 10 -s 6 -p 1
+    wget -nv -q 'https://raw.githubusercontent.com/Kalihackz/tor_website_domian_generator/main/torterminal.sh'
+    printf "##################      (85%%)\r" | lolcat -a --duration 10 -s 6 -p 1
+    wget -nv -q 'https://raw.githubusercontent.com/Kalihackz/tor_website_domian_generator/main/version.txt'
+    printf "#####################   (100%%)\r" | lolcat -a --duration 10 -s 6 -p 1
     chmod +x 'torterminal.sh'
+    echo "[ Copy the latest updated files from 'newupdate' folder ]"
+    echo "[ Replace with old files manually                       ]"
+    echo "[ Delete 'newupdate' folder                             ]\n"
 elif [ $updateVersion \< $currentVersion ]
 then
     echo "\n\nUse official github tor terminal version not unofficial versions"
