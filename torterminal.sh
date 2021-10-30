@@ -12,7 +12,7 @@ echo "
                                                            "| lolcat -p 1
 echo "                  	       - A T0R W3B Toolkit for all\n"| lolcat -p 1
 echo "                          	          Version : $currentVersion\n"| lolcat -p 1
-echo "                          	              By Kalihackzg\n"| lolcat -p 1
+echo "                          	              By Kalihackz\n"| lolcat -p 1
 
 }
 
