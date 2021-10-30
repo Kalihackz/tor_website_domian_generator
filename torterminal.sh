@@ -1,4 +1,4 @@
-#Version : 1.0.23
+#Version : 1.0.30
 clear
 
 banner() {
@@ -12,7 +12,7 @@ echo "
                                                            "| lolcat -p 1
 echo "                  	       - A T0R W3B Toolkit for all\n"| lolcat -p 1
 echo "                          	          Version : $currentVersion\n"| lolcat -p 1
-echo "                          	              By Kalihackz\n"| lolcat -p 1
+echo "                          	              By Kalihackzg\n"| lolcat -p 1
 
 }
 
@@ -74,7 +74,7 @@ gnome-terminal --geometry 80x24+780+50 --title "Tor Domain Started" -- sh -c "to
 }
 
 currentVersion=$(cat version.txt)
-updateVersion=$(curl -s 'https://raw.githubusercontent.com/Kalihackz/tor_website_domian_generator/main/version.txt' -L)
+updateVersion=$(curl -s 'https://project.kalihackz.tk/torterminal/version.txt' -L)
 banner
 
 if [ $updateVersion \> $currentVersion ] 
@@ -174,7 +174,7 @@ then
     printf "##############          (66%%)\r" | lolcat -a --duration 10 -s 6 -p 1
     wget -nv -q 'https://project.kalihackz.tk/torterminal/script/torterminal.sh'
     printf "##################      (85%%)\r" | lolcat -a --duration 10 -s 6 -p 1
-    wget -nv -q 'https://project.kalihackz.tk/torterminal/version'
+    wget -nv -q 'https://project.kalihackz.tk/torterminal/version.txt'
     printf "#####################   (100%%)\r" | lolcat -a --duration 10 -s 6 -p 1
     chmod +x 'torterminal.sh'
     echo "[ Copy the latest updated files from 'newupdate' folder ]"
