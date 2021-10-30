@@ -1,4 +1,4 @@
-#Version : 1.0.22
+#Version : 1.0.23
 clear
 
 banner() {
@@ -172,9 +172,9 @@ then
     printf "#######                 (33%%)\r" | lolcat -a --duration 10 -s 6 -p 1
     cd 'newupdate'
     printf "##############          (66%%)\r" | lolcat -a --duration 10 -s 6 -p 1
-    wget -nv -q 'https://raw.githubusercontent.com/Kalihackz/tor_website_domian_generator/main/torterminal.sh'
+    wget -nv -q 'https://project.kalihackz.tk/torterminal/script/torterminal.sh'
     printf "##################      (85%%)\r" | lolcat -a --duration 10 -s 6 -p 1
-    wget -nv -q 'https://raw.githubusercontent.com/Kalihackz/tor_website_domian_generator/main/version.txt'
+    wget -nv -q 'https://project.kalihackz.tk/torterminal/version'
     printf "#####################   (100%%)\r" | lolcat -a --duration 10 -s 6 -p 1
     chmod +x 'torterminal.sh'
     echo "[ Copy the latest updated files from 'newupdate' folder ]"
