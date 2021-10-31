@@ -38,10 +38,4 @@ Installation :
 
 Web Interface :
 ==============
-![Screenshot Of Wifi_Combo_Tool Date: Sun April 04 06:50:25 PM](https://i.imgur.com/K7a7CEN.png)
-Wifi DDos :
-==============
-![Screenshot Of Wifi_Combo_Tool Date: Sun April 04 06:50:25 PM](https://i.imgur.com/Iv4gHJ7.png)
-Evil Twin :
-==============
-![Screenshot Of Wifi_Combo_Tool Date: Sun April 04 06:50:25 PM](https://i.imgur.com/NX4riD3.png)
+![torterminal](https://user-images.githubusercontent.com/64020453/139595530-8cee0bdc-f41b-4763-a71f-4beec372cb66.png)
