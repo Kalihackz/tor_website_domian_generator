@@ -1,4 +1,5 @@
-#Version : 1.0.30
+#!/bin/sh
+#Version : 1.0.32
 clear
 
 banner() {
