@@ -36,6 +36,6 @@ Installation :
 
 <img src="https://via.placeholder.com/1270x120/0d1117/BFFF00?text=SCREENSHOT+OF+THE+SCRIPT" />
 
-Web Interface :
+Interface :
 ==============
 ![torterminal](https://user-images.githubusercontent.com/64020453/139595530-8cee0bdc-f41b-4763-a71f-4beec372cb66.png)
